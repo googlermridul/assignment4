@@ -108,6 +108,10 @@ nav ul li a:hover, a.active{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
+#firstClass-total,
+#economy-total {
+    display: none;
+}
 .count-btn {
    background: #3352F2;
    color: #fff;
@@ -132,4 +136,7 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+input {
+    margin: 0 !important;
 }
